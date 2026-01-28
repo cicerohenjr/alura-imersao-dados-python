@@ -12,4 +12,5 @@ Nesta aula introdutória, foquei em entender a sintaxe base do Python antes de p
   - *Exemplo prático:* Algoritmo de verificação de habilitação (CNH).
 
 ---
-*Desenvolvido por Cícero Henrique durante a Imersão Dados 2025.*# Imersão Dados com Python
+---
+---*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
