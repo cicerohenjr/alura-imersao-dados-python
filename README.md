@@ -13,10 +13,12 @@ Nesta aula introdutória, foquei em entender a sintaxe base do Python antes de p
 
 ---
 ---
----*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
-
 ### [Aula 01: Análise de Dados com Pandas](./aula01_analise_dados/aula01_analise_salarios.ipynb)
 Iniciamos a manipulação de dados reais utilizando a biblioteca **Pandas**.
 - **Leitura de Dados:** Importação de arquivo CSV direto do repositório.
 - **Tratamento:** Renomeação de colunas (tradução EN -> PT) para facilitar a leitura.
 - **Estatística Descritiva:** Uso do `describe()` e `info()` para entender a distribuição salarial e os tipos de dados.
+
+---*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
+
+
