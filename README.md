@@ -19,6 +19,13 @@ Iniciamos a manipulação de dados reais utilizando a biblioteca **Pandas**.
 - **Tratamento:** Renomeação de colunas (tradução EN -> PT) para facilitar a leitura.
 - **Estatística Descritiva:** Uso do `describe()` e `info()` para entender a distribuição salarial e os tipos de dados.
 
+### [Aula 02: Limpeza e Tratamento de Dados](./aula02_tratamento_dados/aula02_tratamento_dados.ipynb)
+Nesta etapa, focamos na preparação da base para análise, removendo inconsistências.
+- **Detecção de Nulos:** Uso do `isnull().sum()` para identificar dados ausentes.
+- **Estratégias de Tratamento:** Testes com Média, Mediana e métodos de continuidade (`ffill`, `bfill`).
+- **Limpeza Final:** Remoção de dados inconsistentes com `dropna()`.
+- **Conversão de Tipos:** Ajuste da coluna `ano` de `float` para `int64` para corrigir a formatação.
+
 ---*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
 
 
