@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
 
 # 1. Configuração da Página
 st.set_page_config(layout="wide", page_title="Dashboard de Salários", page_icon="💰")
 
 # 2. Carregamento dos Dados
-df = pd.read_csv("dados_imersao_final.csv")
+arquivo_csv = os.path.join(os.path.dirname(__file__), 'dados_imersao_final.csv')
+df = pd.read_csv(arquivo_csv)
 
 # 3. Barra Lateral (Filtros)
 st.sidebar.header("Filtros")
