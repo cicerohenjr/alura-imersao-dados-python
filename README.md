@@ -1,38 +1,65 @@
-# 🐍 Imersão Dados com Python (Alura)
+# 🐍 Imersão Dados com Python - Alura
 
-Este repositório documenta minha jornada de aprendizado na Imersão Dados, começando pelos fundamentos da linguagem Python até a análise de dados complexos.
+Este repositório contém os projetos e exercícios desenvolvidos durante a **Imersão Dados com Python** da Alura (2026). O objetivo foi percorrer todo o ciclo de vida dos dados: desde a introdução à linguagem Python até o deploy de um dashboard interativo na nuvem.
+
+---
 
 ## 📂 Módulos do Projeto
 
-### [Aula 00: Fundamentos e Lógica](./aula00_fundamentos/aula00_introducao.ipynb)
-Nesta aula introdutória, foquei em entender a sintaxe base do Python antes de partir para a análise de dados.
-- **Variáveis:** Tipagem forte e dinâmica (`str`, `int`, `float`).
-- **Boas Práticas:** Adoção do padrão **Snake Case** (`nome_variavel`) para legibilidade, seguindo a PEP 8.
-- **Lógica Condicional:** Entendimento profundo sobre como a **identação** define os blocos de execução no `if/else`.
-  - *Exemplo prático:* Algoritmo de verificação de habilitação (CNH).
+### [Aula 00: Fundamentos de Python](./aula00_fundamentos)
+Introdução ao ambiente de desenvolvimento Google Colab e às bases da linguagem Python.
+- Variáveis, listas e manipulação de strings.
+- Introdução ao pensamento computacional voltado para dados.
+
+### [Aula 01: Análise Exploratória de Dados](./aula01_analise_dados)
+Primeiro contato com a biblioteca **Pandas** e carregamento de bases de dados reais.
+- Leitura de arquivos CSV.
+- Análise estatística descritiva básica.
+- Entendimento da estrutura do Dataset de salários na área de dados.
+
+### [Aula 02: Tratamento e Limpeza de Dados](./aula02_tratamento_dados)
+Técnicas fundamentais para preparar os dados antes da análise.
+- Identificação e tratamento de valores nulos.
+- Renomeação de colunas e padronização.
+- Transformação de tipos de dados.
+
+### [Aula 03: Visualização de Dados e Storytelling](./aula03_analise_visual)
+Criação de gráficos para transformar números em insights visuais.
+- Uso de bibliotecas gráficas (Matplotlib/Seaborn/Plotly).
+- Gráficos de barras, histogramas e boxplots.
+- Análise comparativa de salários por cargo e nível de experiência.
+
+### [Aula 04: Construção de Dashboard e Deploy](./aula04_dashboard/app.py)
+Desenvolvimento de uma aplicação web interativa para apresentação final dos dados.
+- **Ferramentas:** VS Code, Streamlit (Framework Web), Git e GitHub.
+- **Estrutura:**
+    - `app.py`: Código da aplicação.
+    - `dados_imersao_final.csv`: Base tratada.
+- **Funcionalidades:**
+    - 📊 KPIs Dinâmicos.
+    - 🌍 Mapa Interativo (Choropleth).
+    - 🎛️ Filtros de Ano e Senioridade.
+- **Deploy:** Publicado no Streamlit Cloud.
 
 ---
+
+## 🌐 Acesse o Dashboard Online
+O projeto final está funcional e hospedado na nuvem. Clique abaixo para interagir:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cicero-dados-2026.streamlit.app)
+
+> **Link:** [Acesse o Dashboard Aqui](https://cicero-dados-2026.streamlit.app)
+
 ---
-### [Aula 01: Análise de Dados com Pandas](./aula01_analise_dados/aula01_analise_salarios.ipynb)
-Iniciamos a manipulação de dados reais utilizando a biblioteca **Pandas**.
-- **Leitura de Dados:** Importação de arquivo CSV direto do repositório.
-- **Tratamento:** Renomeação de colunas (tradução EN -> PT) para facilitar a leitura.
-- **Estatística Descritiva:** Uso do `describe()` e `info()` para entender a distribuição salarial e os tipos de dados.
 
-### [Aula 02: Limpeza e Tratamento de Dados](./aula02_tratamento_dados/aula02_tratamento_dados.ipynb)
-Nesta etapa, focamos na preparação da base para análise, removendo inconsistências.
-- **Detecção de Nulos:** Uso do `isnull().sum()` para identificar dados ausentes.
-- **Estratégias de Tratamento:** Testes com Média, Mediana e métodos de continuidade (`ffill`, `bfill`).
-- **Limpeza Final:** Remoção de dados inconsistentes com `dropna()`.
-- **Conversão de Tipos:** Ajuste da coluna `ano` de `float` para `int64` para corrigir a formatação.
+## 🛠 Tecnologias Utilizadas
+- **Linguagem:** Python 3.14
+- **Análise de Dados:** Pandas
+- **Visualização:** Plotly Express
+- **Web App:** Streamlit
+- **IDE:** Visual Studio Code & Google Colab
 
-### [Aula 03: Gráficos e Visualização de Dados](./aula03_analise_visual/aula03_graficos_visuais.ipynb)
-Transformação de dados em insights visuais utilizando três bibliotecas poderosas.
-- **Pandas Plot:** Visualizações rápidas (`.plot()`).
-- **Seaborn & Matplotlib:** Gráficos estáticos avançados (Barras, Histograma e Boxplot) com personalização de cores e tamanhos.
-- **Plotly Express:** Gráficos interativos (Barras e Rosca) para dashboards.
-- **Desafio:** Análise de salário médio de *Data Scientists* por país.
-
----*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
+---
+**Desenvolvido por Cícero Henrique durante a Imersão Dados com Python (Alura) - 2026.**
 
 
