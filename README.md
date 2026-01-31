@@ -26,6 +26,13 @@ Nesta etapa, focamos na preparação da base para análise, removendo inconsist�
 - **Limpeza Final:** Remoção de dados inconsistentes com `dropna()`.
 - **Conversão de Tipos:** Ajuste da coluna `ano` de `float` para `int64` para corrigir a formatação.
 
+### [Aula 03: Gráficos e Visualização de Dados](./aula03_analise_visual/aula03_graficos_visuais.ipynb)
+Transformação de dados em insights visuais utilizando três bibliotecas poderosas.
+- **Pandas Plot:** Visualizações rápidas (`.plot()`).
+- **Seaborn & Matplotlib:** Gráficos estáticos avançados (Barras, Histograma e Boxplot) com personalização de cores e tamanhos.
+- **Plotly Express:** Gráficos interativos (Barras e Rosca) para dashboards.
+- **Desafio:** Análise de salário médio de *Data Scientists* por país.
+
 ---*Desenvolvido por Cícero Henrique durante a Imersão Dados 2026.*
 
 
